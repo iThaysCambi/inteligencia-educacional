@@ -18,25 +18,24 @@
 
 ## 📋 Índice
 
-- [Visão Geral](#-visão-geral)
-- [👥 Autores e Responsáveis](#-autores-e-responsáveis)
-- [Problema e Motivação](#-problema-e-motivação)
-- [Funcionalidades](#-funcionalidades)
-- [Arquitetura do Sistema](#️-arquitetura-do-sistema)
-- [Stack Tecnológica](#-stack-tecnológica)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Base de Dados](#-base-de-dados)
-- [Índice IED](#-índice-ied--inteligência-educacional-e-desigualdade)
-- [Módulos Analíticos](#-módulos-analíticos)
-- [Como Executar](#-como-executar)
-- [Variáveis de Ambiente](#-variáveis-de-ambiente)
-- [API Reference](#-api-reference)
-- [Metodologia](#-metodologia)
-- [Casos de Uso](#-casos-de-uso)
-- [Roadmap](#-roadmap)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
-
+- [Visão Geral](#visão-geral)
+- [Autores e Responsáveis](#autores-e-responsáveis)
+- [Problema e Motivação](#problema-e-motivação)
+- [Funcionalidades](#funcionalidades)
+- [Arquitetura do Sistema](#arquitetura-do-sistema)
+- [Stack Tecnológica](#stack-tecnológica)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Base de Dados](#base-de-dados)
+- [Índice IED](#índice-ied--inteligência-educacional-e-desigualdade)
+- [Módulos Analíticos](#módulos-analíticos)
+- [Como Executar](#como-executar)
+- [Variáveis de Ambiente](#variáveis-de-ambiente)
+- [API Reference](#api-reference)
+- [Metodologia](#metodologia)
+- [Casos de Uso](#casos-de-uso)
+- [Roadmap](#roadmap)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 ---
 
 ## 🎯 Visão Geral
