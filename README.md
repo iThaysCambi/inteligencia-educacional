@@ -74,8 +74,9 @@ O Brasil possui **o maior banco de dados educacional da América Latina**: os Mi
 
 Este projeto foi idealizado e desenvolvido por:
 
-* **Jessica Dias Sabino**
-* **Thays Porto de Jesus Cambi**
-* **Lucas de Moura Melo**
 * **Gisele Pereira Monteiro**
+* **Jessica Dias Sabino**
+* **Lucas de Moura Melo**
+* **Thays Porto de Jesus Cambi**
+
 
