@@ -15,7 +15,6 @@
 </div>
 
 ---
-
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
@@ -36,7 +35,6 @@
 - [Roadmap](#roadmap)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
----
 
 ## 🎯 Visão Geral
 
