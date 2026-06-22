@@ -14,27 +14,26 @@
 
 </div>
 
----
 ## 📋 Índice
 
-- [Visão Geral](#visão-geral)
-- [Autores e Responsáveis](#autores-e-responsáveis)
-- [Problema e Motivação](#problema-e-motivação)
+- [Visão Geral](#visao-geral)
+- [Autores e Responsáveis](#autores-e-responsaveis)
+- [Problema e Motivação](#problema-e-motivacao)
 - [Funcionalidades](#funcionalidades)
 - [Arquitetura do Sistema](#arquitetura-do-sistema)
-- [Stack Tecnológica](#stack-tecnológica)
+- [Stack Tecnológica](#stack-tecnologica)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Base de Dados](#base-de-dados)
-- [Índice IED](#índice-ied--inteligência-educacional-e-desigualdade)
-- [Módulos Analíticos](#módulos-analíticos)
+- [Índice IED](#indice-ied--inteligencia-educacional-e-desigualdade)
+- [Módulos Analíticos](#modulos-analiticos)
 - [Como Executar](#como-executar)
-- [Variáveis de Ambiente](#variáveis-de-ambiente)
+- [Variáveis de Ambiente](#variaveis-de-ambiente)
 - [API Reference](#api-reference)
 - [Metodologia](#metodologia)
 - [Casos de Uso](#casos-de-uso)
 - [Roadmap](#roadmap)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Contribuição](#contribuicao)
+- [Licença](#licenca)
 
 ## 🎯 Visão Geral
 
