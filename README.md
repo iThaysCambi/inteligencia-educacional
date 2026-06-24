@@ -62,8 +62,8 @@ Para sustentar o processamento de milhões de registros com alta performance na 
 Este ecossistema de dados foi idealizado, modelado e desenvolvido por Analista de Dados:
 
 * 👩‍💻 **Gisele Pereira Monteiro** 
-* 👩‍💻 **Jessica Dias Sabino** — 
-* 👨‍💻 **Lucas de Moura Melo** — 
-* 👩‍💻 **Thays Porto de Jesus Cambi** — 
+* 👩‍💻 **Jessica Dias Sabino** 
+* 👨‍💻 **Lucas de Moura Melo**  
+* 👩‍💻 **Thays Porto de Jesus Cambi** 
 
 
