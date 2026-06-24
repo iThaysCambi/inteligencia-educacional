@@ -59,11 +59,11 @@ Para sustentar o processamento de milhões de registros com alta performance na 
 
 ## 👥 Autores e Responsáveis
 
-Este ecossistema de dados foi idealizado, modelado e desenvolvido por especialistas seniores:
+Este ecossistema de dados foi idealizado, modelado e desenvolvido por Analista de Dados:
 
-* 👩‍💻 **Gisele Pereira Monteiro** — *Cientista de Dados & Especialista em Modelagem*
-* 👩‍💻 **Jessica Dias Sabino** — *Engenheira de Dados & Arquitetura de Pipeline*
-* 👨‍💻 **Lucas de Moura Melo** — *Analista de BI & Especialista em Políticas Públicas*
-* 👩‍💻 **Thays Porto de Jesus Cambi** — *Engenheira de Software & Integração de Sistemas*
+* 👩‍💻 **Gisele Pereira Monteiro** 
+* 👩‍💻 **Jessica Dias Sabino** — 
+* 👨‍💻 **Lucas de Moura Melo** — 
+* 👩‍💻 **Thays Porto de Jesus Cambi** — 
 
 
