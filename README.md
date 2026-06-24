@@ -9,11 +9,11 @@ Ecosystema analítico avançado que transforma **13,9 milhões de registros** do
 
 ---
 
-## 🎯 Links Rápidos de Acesso
+## 🎯 Links Rápidos
 
-* 🌐 **ENEM Vision (Inteligência Territorial):** [Acessar Plataforma](https://enem-vision.lovable.app/)
-* 🔮 **Predict Edu Impact (Modelagem Preditiva):** [Acessar Plataforma](https://predict-edu-impact.lovable.app/)
-
+* 🌐 **ENEM Vision** (Inteligência Territorial) — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://enem-vision.lovable.app/)
+* 🔮 **Predict Edu Impact** (Modelagem Preditiva) — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://predict-edu-impact.lovable.app/)
+* 📊 **Dashboard Educacional e Social** — [![Deploy](https://img.shields.io/badge/Acessar%20Dashboard-Vercel-black)](https://enem-brown.vercel.app/)
 ---
 
 ## 🗺️ Visão Geral do Ecossistema
