@@ -16,7 +16,7 @@
 | Entregável | Descrição / Objetivo | Link de Acesso / Ação |
 | :--- | :--- | :--- |
 | 🔮 **Web App Preditivo (IPEE)** | Aplicação Web para simulação de cenários educacionais (2024–2030) | [![Acessar App](https://img.shields.io/badge/Acessar_Plataforma-Lovable-7C3AED?style=for-the-badge&logo=react)](https://predict-edu-impact.lovable.app/) |
-| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | [![Download .pbix](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](./ENEM.pbix?raw=true) |
+| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | [![Download .pbix](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)]("C:\Users\USER\OneDrive\Área de Trabalho\GENERATION\GENDAY\ENEM (1).pbix") |
 | 💻 **Código Fonte ETL** | Scripts de higienização, engenharia de atributos e carga MySQL | [![Ver Código](https://img.shields.io/badge/Reposit%C3%B3rio-Código_Python-3776AB?style=for-the-badge&logo=github)](#-engenharia-de-dados--arquitetura-técnica) |
 
 ---
@@ -67,8 +67,8 @@ Interface voltada para formuladores de políticas públicas com **7 módulos int
 * [Power BI Desktop](https://powerbi.microsoft.com/) instalado no Windows.
 
 ### Passo a Passo
-1. Faça o clone deste repositório ou faça o download direto do arquivo:
-   * 📁 [Baixar ENEM.pbix](./ENEM.pbix?raw=true)
+1. Faça o download do arquivo do projeto:
+   * 📁 [Baixar ENEM.pbix via Google Drive]("C:\Users\USER\OneDrive\Área de Trabalho\GENERATION\GENDAY\ENEM (1).pbix")
 2. Abra o arquivo no **Power BI Desktop**.
 3. Utilize os navegadores de páginas no rodapé (`Inf. Demo.`, `Info. Analises`, `Renda vs Notas`) para explorar a interatividade dos dados.
 
