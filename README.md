@@ -1,63 +1,78 @@
-# 📊 Inteligência Educacional & Desigualdade: Microdados ENEM 2020–2023
+# 📊 Inteligência Educacional & Desigualdade: Microdados ENEM · SP (2015–2023)
 
-![ENEM 2020-2023](https://img.shields.io/badge/ENEM-2020--2023-1E5EFF?style=for-the-badge)
+![ENEM 2015-2023](https://img.shields.io/badge/ENEM-2015--2023-1E5EFF?style=for-the-badge)
 ![Fonte INEP](https://img.shields.io/badge/Fonte-INEP-00C48C?style=for-the-badge)
-![Municípios](https://img.shields.io/badge/Municípios-5.570-FF8A00?style=for-the-badge)
-![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
+![Municípios SP](https://img.shields.io/badge/Munic%C3%ADpios%20SP-643-FF8A00?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge)
 
-Ecosystema analítico avançado que transforma **13,9 milhões de registros** dos Microdados do ENEM em inteligência territorial e preditiva, desenhado estrategicamente para gestores públicos, ONGs educacionais e formuladores de políticas públicas.
-
----
-
-## 🎯 Links Rápidos
-
-* 🌐 **ENEM Vision** (Inteligência Territorial) — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://enem-vision.lovable.app/)
-* 🔮 **Predict Edu Impact** (Modelagem Preditiva) — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://predict-edu-impact.lovable.app/)
-* 📊 **Dashboard Educacional e Social** — [![Deploy](https://img.shields.io/badge/Acessar%20Dashboard-Vercel-black)](https://enem-brown.vercel.app/)
-* 📊 **Visualização do Dashboard Interativo [Acessar Dashboard Interativo do ENEM no Power BI](https://app.powerbi.com/view?r=SEU_LINK_GERADO_AQUI)
----
-
-## 🗺️ Visão Geral do Ecossistema
-
-O projeto é composto por duas aplicações complementares que cobrem o ciclo completo de análise de dados educacionais — indo do diagnóstico descritivo à projeção preditiva de cenários.
-
-### 1. 📊 ENEM Vision
-* **Propósito:** Inteligência territorial descritiva. Conecta desempenho, renda, infraestrutura e contexto social por município, estado e região.
-* **Recursos:** Mapas interativos, rankings nacionais, séries temporais, radar por área do conhecimento e distribuições estatísticas avançadas (mediana, quartis e *outliers*).
-* **Cobertura:** 13,9 milhões de participantes, 1.747 municípios, mais de 40 mil escolas ao longo de 4 anos de dados, além do cálculo do IED (Índice de Esforço Docente) médio nacional fixado em 70.
-* **Módulos:** 🔀 [Explorar](https://enem-vision.lovable.app/explorar) | 🏆 [Ranking](https://enem-vision.lovable.app/ranking) | 📖 [Metodologia](https://enem-vision.lovable.app/metodologia)
-
-### 2. 🔮 Predict Edu Impact
-* **Propósito:** Inteligência preditiva e simulação de cenários. Modelagem estatística da nota média do ENEM sob horizontes temporais de 2026 e 2030.
-* **Recursos:** Classificação automatizada de municípios em quatro status críticos (*Referência, Estável, Atenção, Crítico*), simulador de políticas públicas impacto-resposta, radar de vulnerabilidade e motor de recomendação prescritiva baseado no **IPEE (Índice de Potencial de Evolução Educacional)**.
-* **Performance do Modelo:** Erro Absoluto Médio (MAE) de 32,7 pontos, evolução estadual projetada de +7,92 pontos ao ano e 95 municípios em estado crítico (nota < 480) já mapeados.
-
-💡 **Fluxo de Uso Recomendado:** Comece pelo **ENEM Vision** para diagnosticar o território atual (*onde está a desigualdade hoje?*), e avance para o **Predict Edu Impact** para projetar cenários e priorizar intervenções (*onde investir para maximizar o impacto até 2030?*).
+Ecossistema analítico avançado de dados que transforma **mais de 5,2 milhões de registros** dos Microdados do ENEM (2015–2023) em inteligência territorial e preditiva. O projeto conecta ETL em Python, Data Warehouse em MySQL, visualização no Power BI e uma aplicação Web Preditiva (IPEE) para gestores públicos, ONGs e tomadores de decisão.
 
 ---
 
-## 🧠 Problema & Motivação
+## 🎯 Links Rápidos & Entregáveis
 
-O Brasil possui o **maior banco de dados educacional da América Latina**: os Microdados do ENEM, publicados anualmente pelo INEP com dezenas de variáveis por candidato. Apesar dessa imensa riqueza informacional, esses dados historicamente permanecem inacessíveis para a tomada de decisão ágil devido a três gargalos principais:
+* 🔮 **Predict Edu Impact (Web App IPEE)** — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://predict-edu-impact.lovable.app/)
+* 📊 **Dashboard Interativo Power BI** — [![Power BI Service](https://img.shields.io/badge/Acessar%20Dashboard-Power_BI-yellow)](https://app.powerbi.com/view?r=SEU_LINK_GERADO_AQUI)
+* 📥 **Download do Arquivo Power BI (.pbix)** — [![Power BI File](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?logo=powerbi&logoColor=black)](./ENEM.pbix)
 
-1. **Volume e Complexidade:** Cada edição do ENEM gera arquivos brutos com mais de 3 GB e milhões de linhas em formatos complexos de processar.
-2. **Falta de Territorialização:** Os dados existem no nível individual, mas não eram sistematicamente agregados e tratados por município para permitir comparações regionais diretas.
-3. **Ausência de Cruzamento de Dados:** Desempenho, infraestrutura escolar e dados socioeconômicos raramente são analisados em conjunto de forma preditiva.
+---
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Microdados     │ ──> │   ETL Python    │ ──> │  Data Warehouse │ ──> │   Entregáveis   │
+│  INEP 2015-2023 │     │  Pandas/Limpeza │     │  MySQL (Fato/Dim)│     │ Power BI + App  │
+└─────────────────┘     └─────────────────┘     └─────────────────┘     └─────────────────┘
 
-O **ENEM Vision** resolve os dois primeiros pontos entregando territorialização e cruzamento em tempo real. O **Predict Edu Impact** soluciona o terceiro ponto, transformando o diagnóstico estático em **previsão e recomendação acionável**.
+## 🗺️ Visão Geral da Solução
+
+O ecossistema é composto por duas frentes integradas que cobrem todo o ciclo de dados: do tratamento bruto à prescrição automatizada.
+
+### 1. 📊 Dashboard Analítico (Power BI)
+* **Propósito:** Diagnóstico demográfico e análise temporal/socioeconômica detalhada do desempenho no ENEM.
+* **Recursos:**
+  * **Painel Demográfico:** Análise por raça/cor (54% pretos e pardos, 42% brancos), gênero (57% mulheres, 43% homens) e renda.
+  * **Análise Temporal (Real vs. Previsto):** Acompanhamento de séries temporais de 2015 a 2023 por disciplina (Matemática, CH, CN, LC) com validação de aderência do modelo preditivo.
+  * **Renda vs. Desempenho:** Matriz de dispersão comprovando a forte correlação positiva entre renda familiar média e nota de exatas/redação.
+  * **Filtros Dinâmicos:** Navegação interativa por Ano e Região Geográfica (ex: São Paulo Capital, Campinas e Região).
+
+### 2. 🔮 Web App Preditivo: IPEE (Predict Edu Impact)
+* **Propósito:** Plataforma de planejamento estratégico e simulação de cenários para o período **2024–2030** nos **643 municípios do estado de São Paulo**.
+* **Módulos Principais:**
+  * 📊 **Panorama:** Visão geral comparativa (Média 2023 Real: 532 pts ➔ Projeção 2030: 587,6 pts).
+  * 🔮 **Previsão:** Projeção contínua da evolução das notas por município.
+  * 📍 **Distribuição:** Mapa de calor de desempenho territorial.
+  * 🏆 **Ranking:** Classificação por performance e evolução.
+  * 🎛️ **Simulador & Radar:** Simulação de intervenções com cálculo de risco/potencial.
+  * 💡 **Recomendação:** Sugestões automáticas de políticas públicas conforme a criticidade do município.
 
 ---
 
-## 🛠️ Stack Tecnológica & Engenharia de Dados
+## 🧠 O Problema de Negócio & Insights Alcançados
 
-Para sustentar o processamento de milhões de registros com alta performance na web, o ecossistema utiliza arquitetura moderna de Data Science:
+O desempenho no ENEM reflete desigualdades estruturais profundas. A tomada de decisão em políticas públicas educacionais frequentemente sofre com a falta de dados territorializados e preditivos.
 
-* **Processamento e Modelagem:** Python, Pandas, Scikit-Learn, Statsmodels.
-* **Pipeline de Dados:** Clusterização (K-Means/Hierárquica) para classificação de vulnerabilidade e Regressões Avançadas para projeções de séries temporais.
-* **Interface e Visualização:** Dashboards analíticos integrados com motores de renderização geoespacial (Mapbox/Leaflet).
+### Key Insights do Projeto:
+1. **Desigualdade Racial & Acesso:** Candidatos pretos e pardos somam **54% dos inscritos**, porém concentram-se em regiões vulneráveis, apresentando um gap histórico de até **80 pontos** em Matemática frente a candidatos brancos.
+2. **Impacto da Renda ($R^2 = 0,74$):** Municípios com renda média familiar superior a R$ 2.000,00 registram notas **15% maiores**. A rede pública representa ~85% dos candidatos e necessita de investimentos direcionados.
+3. **Mapeamento de Prioridades:** O modelo identificou e mapeou **95 municípios em estado crítico** (nota média < 480) no estado de SP, direcionando onde aplicar recursos pedagógicos com urgência.
 
 ---
 
+## 🛠️ Arquitetura de Dados & Pipeline Técnico
+
+* **Extração & Tratamento:** Python & Pandas (limpeza de microdados multigigabyte, tratamento de nulos, categorização de faixas de renda).
+* **Modelagem Relacional:** MySQL Data Warehouse (modelagem dimensional de Fatos e Dimensões socioeconômicas/geográficas).
+* **Modelagem Preditiva:** Algoritmos de Regressão Linear treinados nos históricos de 2015–2023 para projeção até 2030 (**Erro Absoluto Médio / MAE: 32,7 pontos**).
+* **Visualização & Deploy:** Power BI Desktop/Service + Aplicação Web com IA generativa via Lovable.
+
+---
+
+## 🛠️ Como Executar o Dashboard localmente
+
+1. Faça o download do arquivo `ENEM.pbix` disponível no repositório.
+2. Certifique-se de ter o **Power BI Desktop** instalado em seu computador.
+3. Abra o arquivo `ENEM.pbix` para navegar pelas páginas de **Análise Demográfica**, **Real vs. Previsto** e **Renda vs. Desempenho**.
+
+---
 ## 👥 Autores e Responsáveis
 
 Este ecossistema de dados foi idealizado, modelado e desenvolvido por Analista de Dados:
