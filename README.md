@@ -15,11 +15,9 @@
 
 | Entregável | Descrição / Objetivo | Link de Acesso / Ação |
 | :--- | :--- | :--- |
-| 🔮 **Web App Preditivo (IPEE)** | Aplicação Web para simulação de cenários educacionais (2024–2030) | [![Acessar App](https://img.shields.io/badge/Acessar_Plataforma-Lovable-7C3AED?style=for-the-badge&logo=react)](https://predict-edu-impact.lovable.app/) |
-| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | <a href="https://seu-link-do-onedrive-aqui" target="_blank">
-  <img src="https://img.shields.io/badge/DOWNLOAD-ENEM.PBIX-yellow?style=for-the-badge" alt="Download Power BI">
-</a>
-| 💻 **Código Fonte ETL** | Scripts de higienização, engenharia de atributos e carga MySQL | [![Ver Código](https://img.shields.io/badge/Reposit%C3%B3rio-Código_Python-3776AB?style=for-the-badge&logo=github)](#-engenharia-de-dados--arquitetura-técnica) |
+| 🔮 **Web App Preditivo (IPEE)** | Aplicação Web para simulação de cenários educacionais (2024–2030) | [![Acessar Plataforma](https://img.shields.io/badge/Acessar_Plataforma-Lovable-7C3AED?style=for-the-badge&logo=react)](https://predict-edu-impact.lovable.app/) |
+| 📊 **Dashboard Power BI (.pbix)** | Relatório completo com modelo de dados, DAX, visuais e filtros | [![Download Power BI](https://img.shields.io/badge/Download-Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://drive.google.com/file/d/1O0i9_QCmtYjMuITiw5YdJEog-yyZs3Xa/view?usp=drive_link) |
+| 💻 **Código Fonte ETL** | Scripts de higienização, engenharia de atributos e carga MySQL | [![Ver Código](https://img.shields.io/badge/Repositório-GitHub-181717?style=for-the-badge&logo=github)](#-engenharia-de-dados--arquitetura-técnica) |
 
 ---
 
@@ -66,16 +64,27 @@ Interface voltada para formuladores de políticas públicas com **7 módulos int
 ## 📥 Como Avaliar o Projeto Localmente
 
 ### Pré-requisitos
-* [Power BI Desktop](https://powerbi.microsoft.com/) instalado no Windows.
+
+- Power BI Desktop instalado.
 
 ### Passo a Passo
-1. Faça o download do arquivo do projeto:
-   * 📁 [Baixar ENEM.pbix via Google Drive]("<a href="https://seu-link-do-onedrive-aqui" target="_blank">
-  <img src="https://img.shields.io/badge/DOWNLOAD-ENEM.PBIX-yellow?style=for-the-badge" alt="Download Power BI">
-</a>")
-2. Abra o arquivo no **Power BI Desktop**.
-3. Utilize os navegadores de páginas no rodapé (`Inf. Demo.`, `Info. Analises`, `Renda vs Notas`) para explorar a interatividade dos dados.
 
+1. Faça o download do arquivo `.pbix`:
+
+   **📥 https://drive.google.com/file/d/1O0i9_QCmtYjMuITiw5YdJEog-yyZs3Xa/view?usp=drive_link**
+
+   ou clique no botão abaixo:
+
+   [![Download Power BI](https://img.shields.io/badge/Download-Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://drive.google.com/file/d/1O0i9_QCmtYjMuITiw5YdJEog-yyZs3Xa/view?usp=drive_link)
+
+2. Abra o arquivo no **Power BI Desktop**.
+
+3. Explore as páginas do relatório:
+
+   - 📊 Informações Demográficas
+   - 📈 Análises Educacionais
+   - 💰 Renda × Desempenho
+   - 🔮 Projeções
 ---
 
 ## 👥 Autores & Contribuidores
