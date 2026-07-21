@@ -16,9 +16,9 @@
 | Entregável | Descrição / Objetivo | Link de Acesso / Ação |
 | :--- | :--- | :--- |
 | 🔮 **Web App Preditivo (IPEE)** | Aplicação Web para simulação de cenários educacionais (2024–2030) | [![Acessar App](https://img.shields.io/badge/Acessar_Plataforma-Lovable-7C3AED?style=for-the-badge&logo=react)](https://predict-edu-impact.lovable.app/) |
-| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | [![Download .pbix](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](<a href="https://seu-link-do-onedrive-aqui" target="_blank">
+| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | <a href="https://seu-link-do-onedrive-aqui" target="_blank">
   <img src="https://img.shields.io/badge/DOWNLOAD-ENEM.PBIX-yellow?style=for-the-badge" alt="Download Power BI">
-</a>) |
+</a>
 | 💻 **Código Fonte ETL** | Scripts de higienização, engenharia de atributos e carga MySQL | [![Ver Código](https://img.shields.io/badge/Reposit%C3%B3rio-Código_Python-3776AB?style=for-the-badge&logo=github)](#-engenharia-de-dados--arquitetura-técnica) |
 
 ---
