@@ -1,79 +1,80 @@
 # 📊 Inteligência Educacional & Desigualdade: Microdados ENEM · SP (2015–2023)
 
-![ENEM 2015-2023](https://img.shields.io/badge/ENEM-2015--2023-1E5EFF?style=for-the-badge)
-![Fonte INEP](https://img.shields.io/badge/Fonte-INEP-00C48C?style=for-the-badge)
-![Municípios SP](https://img.shields.io/badge/Munic%C3%ADpios%20SP-643-FF8A00?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge)
+[![Status do Projeto](https://img.shields.io/badge/Status-Conclu%C3%ADdo-00C48C?style=for-the-badge)](#)
+[![ENEM 2015-2023](https://img.shields.io/badge/ENEM-2015--2023-1E5EFF?style=for-the-badge)](#)
+[![Municípios SP](https://img.shields.io/badge/Munic%C3%ADpios%20SP-643-FF8A00?style=for-the-badge)](#)
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![MySQL](https://img.shields.io/badge/MySQL-Data_Warehouse-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 
-Ecossistema analítico avançado de dados que transforma **mais de 5,2 milhões de registros** dos Microdados do ENEM (2015–2023) em inteligência territorial e preditiva. O projeto conecta ETL em Python, Data Warehouse em MySQL, visualização no Power BI e uma aplicação Web Preditiva (IPEE) para gestores públicos, ONGs e tomadores de decisão.
+> **Resumo Executivo:** Um ecossistema analítico completo que processa **mais de 5,2 milhões de registros** dos Microdados do ENEM para diagnosticar disparidades socioeconômicas e prever o desempenho educacional até 2030 em 643 municípios paulistas. Integrando pipeline ETL, Data Warehouse, BI e aplicação web preditiva.
 
 ---
 
-## 🎯 Links Rápidos & Entregáveis
+## 🎯 Entregáveis do Projeto & Links de Acesso
 
-* 🔮 **Predict Edu Impact (Web App IPEE)** — [![Deploy](https://img.shields.io/badge/Acessar%20Plataforma-Lovable-blueviolet)](https://predict-edu-impact.lovable.app/)
-* 📊 **Dashboard Interativo Power BI** — [![Power BI Service](https://img.shields.io/badge/Acessar%20Dashboard-Power_BI-yellow)](https://app.powerbi.com/view?r=SEU_LINK_GERADO_AQUI)
-* 📥 **Download do Arquivo Power BI (.pbix)** — [![Power BI File](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?logo=powerbi&logoColor=black)](./ENEM.pbix)
+| Entregável | Descrição / Objetivo | Link de Acesso / Ação |
+| :--- | :--- | :--- |
+| 🔮 **Web App Preditivo (IPEE)** | Aplicação Web para simulação de cenários educacionais (2024–2030) | [![Acessar App](https://img.shields.io/badge/Acessar_Plataforma-Lovable-7C3AED?style=for-the-badge&logo=react)](https://predict-edu-impact.lovable.app/) |
+| 📥 **Arquivo do Power BI (.pbix)** | Relatório completo com modelo de dados DAX, visuais e filtros | [![Download .pbix](https://img.shields.io/badge/Download-ENEM.pbix-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](./ENEM.pbix) |
+| 💻 **Código Fonte ETL** | Scripts de higienização, engenharia de atributos e carga MySQL | [![Ver Código](https://img.shields.io/badge/Reposit%C3%B3rio-Código_Python-3776AB?style=for-the-badge&logo=github)](#-engenharia-de-dados--arquitetura-técnica) |
 
+---
+
+## 🗺️ Visão Geral da Solução
+
+O ecossistema resolve a dor da **tomada de decisão no escuro em gestão pública** unindo inteligência descritiva e modelagem estatística preditiva.
 ---
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │  Microdados     │ ──> │   ETL Python    │ ──> │  Data Warehouse │ ──> │   Entregáveis   │
 │  INEP 2015-2023 │     │  Pandas/Limpeza │     │  MySQL (Fato/Dim)│     │ Power BI + App  │
 └─────────────────┘     └─────────────────┘     └─────────────────┘     └─────────────────┘
 
-## 🗺️ Visão Geral da Solução
+### 1. 📊 Dashboard Analítico em Power BI (`ENEM.pbix`)
+Desenvolvido focado em **Storytelling com Dados** para gestores de educação e analistas de BI:
+* **Painel Demográfico:** Mapeamento de 5,2M+ participantes por raça/cor (54% pretos/pardos, 42% brancos), gênero e distribuição de faixas de renda.
+* **Análise Temporal (Real vs. Previsto):** Séries temporais de 2015 a 2023 para as 4 áreas de conhecimento (Matemática, Humanas, Linguagens e Natureza) comparando notas reais com a regressão estimada.
+* **Matriz de Dispersão Socioeconômica:** Cruzamento direto entre Renda Média Familiar e Notas com filtros dinâmicos por Ano e Região (Grande SP, Campinas e Região, Interior SP, SP Capital).
 
-O ecossistema é composto por duas frentes integradas que cobrem todo o ciclo de dados: do tratamento bruto à prescrição automatizada.
-
-### 1. 📊 Dashboard Analítico (Power BI)
-* **Propósito:** Diagnóstico demográfico e análise temporal/socioeconômica detalhada do desempenho no ENEM.
-* **Recursos:**
-  * **Painel Demográfico:** Análise por raça/cor (54% pretos e pardos, 42% brancos), gênero (57% mulheres, 43% homens) e renda.
-  * **Análise Temporal (Real vs. Previsto):** Acompanhamento de séries temporais de 2015 a 2023 por disciplina (Matemática, CH, CN, LC) com validação de aderência do modelo preditivo.
-  * **Renda vs. Desempenho:** Matriz de dispersão comprovando a forte correlação positiva entre renda familiar média e nota de exatas/redação.
-  * **Filtros Dinâmicos:** Navegação interativa por Ano e Região Geográfica (ex: São Paulo Capital, Campinas e Região).
-
-### 2. 🔮 Web App Preditivo: IPEE (Predict Edu Impact)
-* **Propósito:** Plataforma de planejamento estratégico e simulação de cenários para o período **2024–2030** nos **643 municípios do estado de São Paulo**.
-* **Módulos Principais:**
-  * 📊 **Panorama:** Visão geral comparativa (Média 2023 Real: 532 pts ➔ Projeção 2030: 587,6 pts).
-  * 🔮 **Previsão:** Projeção contínua da evolução das notas por município.
-  * 📍 **Distribuição:** Mapa de calor de desempenho territorial.
-  * 🏆 **Ranking:** Classificação por performance e evolução.
-  * 🎛️ **Simulador & Radar:** Simulação de intervenções com cálculo de risco/potencial.
-  * 💡 **Recomendação:** Sugestões automáticas de políticas públicas conforme a criticidade do município.
+### 2. 🔮 Plataforma Web Preditiva — IPEE (Predict Edu Impact)
+Interface voltada para formuladores de políticas públicas com **7 módulos interativos**:
+* **Panorama:** Comparativo da nota média do estado (532 em 2023 ➔ projeção de 587,6 em 2030).
+* **Mapeamento de Criticidade:** Identificação e classificação automática de **95 municípios em estado crítico** (nota média < 480).
+* **Simulador de Intervenção & Recomendador:** Algoritmo que projeta o ganho de pontuação com base em investimentos prioritários em infraestrutura e redes escolares.
 
 ---
 
-## 🧠 O Problema de Negócio & Insights Alcançados
+## 💡 Key Business Insights
 
-O desempenho no ENEM reflete desigualdades estruturais profundas. A tomada de decisão em políticas públicas educacionais frequentemente sofre com a falta de dados territorializados e preditivos.
-
-### Key Insights do Projeto:
-1. **Desigualdade Racial & Acesso:** Candidatos pretos e pardos somam **54% dos inscritos**, porém concentram-se em regiões vulneráveis, apresentando um gap histórico de até **80 pontos** em Matemática frente a candidatos brancos.
-2. **Impacto da Renda ($R^2 = 0,74$):** Municípios com renda média familiar superior a R$ 2.000,00 registram notas **15% maiores**. A rede pública representa ~85% dos candidatos e necessita de investimentos direcionados.
-3. **Mapeamento de Prioridades:** O modelo identificou e mapeou **95 municípios em estado crítico** (nota média < 480) no estado de SP, direcionando onde aplicar recursos pedagógicos com urgência.
+1. **Impacto da Renda ($R^2 = 0,74$):** Candidatos de municípios com renda familiar superior a R$ 2.000,00 apresentam notas **15% superiores** em exatas e redação.
+2. **Disparidade Racial & Territorial:** Candidatos pretos e pardos somam 54% dos inscritos, mas estão concentrados em regiões de menor rendimento, gerando um gap de desempenho histórico de até **80 pontos em Matemática**.
+3. **Poder Preditivo Acurado:** O modelo de Regressão Linear atingiu um **Erro Absoluto Médio (MAE) de apenas 32,7 pontos** sobre as médias municipais acumuladas.
 
 ---
 
-## 🛠️ Arquitetura de Dados & Pipeline Técnico
+## 🛠️ Engenharia de Dados & Arquitetura Técnica
 
-* **Extração & Tratamento:** Python & Pandas (limpeza de microdados multigigabyte, tratamento de nulos, categorização de faixas de renda).
-* **Modelagem Relacional:** MySQL Data Warehouse (modelagem dimensional de Fatos e Dimensões socioeconômicas/geográficas).
-* **Modelagem Preditiva:** Algoritmos de Regressão Linear treinados nos históricos de 2015–2023 para projeção até 2030 (**Erro Absoluto Médio / MAE: 32,7 pontos**).
-* **Visualização & Deploy:** Power BI Desktop/Service + Aplicação Web com IA generativa via Lovable.
+* **Processamento & ETL:** Python (Pandas) para ingestão e limpeza de arquivos pesados, agregação geográfica por código IBGE e tratamento de omissões socioeconômicas.
+* **Modelagem Relacional:** Data Warehouse em MySQL modelado em **Star Schema** (Tabela Fato `forecast_2015_2023` conectada às dimensões `dim_municipios` e `dim_socioeconomico`).
+* **Data Science:** Algoritmos de Regressão Linear e Séries Temporais para projeções com validação cruzada.
+* **Business Intelligence:** Power BI Desktop utilizando linguagem DAX para cálculo de métricas agregadas e design acessível.
+
+---
+
+## 📥 Como Avaliar o Projeto Localmente
+
+### Pré-requisitos
+* [Power BI Desktop](https://powerbi.microsoft.com/) instalado no Windows.
+
+### Passo a Passo
+1. Faça o clone deste repositório ou faça o download direto do arquivo:
+   * 📁 [Baixar ENEM.pbix](./ENEM.pbix)
+2. Abra o arquivo no **Power BI Desktop**.
+3. Utilize os navegadores de páginas no rodapé (`Inf. Demo.`, `Info. Analises`, `Renda vs Notas`) para explorar a interatividade dos dados.
 
 ---
 
-## 🛠️ Como Executar o Dashboard localmente
-
-1. Faça o download do arquivo `ENEM.pbix` disponível no repositório.
-2. Certifique-se de ter o **Power BI Desktop** instalado em seu computador.
-3. Abra o arquivo `ENEM.pbix` para navegar pelas páginas de **Análise Demográfica**, **Real vs. Previsto** e **Renda vs. Desempenho**.
-
----
-## 👥 Autores e Responsáveis
+## 👥 Autores & Contribuidores
 
 Este ecossistema de dados foi idealizado, modelado e desenvolvido por Analista de Dados:
 
